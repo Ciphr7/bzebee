@@ -1,12 +1,21 @@
+:root {
+  --breakpoint: 600px;
+}
+
+@media (min-width: var(--breakpoint)) {
+  /* Doesn't work :( */
+}
 #container {
   text-align: center;
 
   position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  left: 25%;
+
+  right: 25%;
+  // top: 50%;
+  // transform: translateY(-50%);
 }
+
 
 #container strong {
   font-size: 20px;
@@ -24,4 +33,56 @@
 
 #container a {
   text-decoration: none;
+}
+
+.jumboImage {
+  background: url('../../assets/BzeBee-4.png');
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: 350px;
+  //width: 80vh;
+  height: 80vh;
+  margin: 0 auto;
+  display: block;
+}
+img{
+  height: 70vh;
+  width: auto;
+  margin: auto;
+  display: block;
+}
+
+.confidenceImage {
+  background: url('../../assets/creativity.jpg');
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: 100%;
+  height: 100vh;
+}
+
+// .ion-card {
+//   margin: 5px;
+// }
+
+.problemImage {
+  background: url('../../assets/problems.jpg');
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: 100%;
+  height: 100vh;
+}
+
+.sucessImage {
+  background: url('../../assets/success.jpg');
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: 100%;
+  height: 100vh;
+}
+.smoneyImage {
+  background: url('../../assets/smoney.jpg');
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: 100%;
+  height: 100vh;
 }
