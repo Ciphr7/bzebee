@@ -35,22 +35,47 @@
   text-decoration: none;
 }
 
-.jumboImage {
-  background: url('../../assets/BzeBee-4.png');
-  background-repeat: no-repeat;
-  background-position: center; 
-  background-size: 350px;
-  //width: 80vh;
-  height: 60vh;
-  margin: 0 auto;
-  display: block;
+ .jumboImage {
+    
+    background: url('../../assets/BzeBee-4.png') center center;
+    background-color:#bb3434;
+    background-repeat: no-repeat;
+    //width: 100%;
+    height: 100vh;
+   // max-height: fit-content;
+    background-size: 70%;
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-align:center;
+    align-items:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+    //display: block;
+   //margin: 2;
+    // background-position: center;
+    //padding: 22px; 
+  
 }
-img{
-  height: 70vh;
-  width: auto;
-  margin: auto;
-  display: block;
-}
+
+.grid_box .a #section_one{background:url("/img/high-tech.jpg") center center;
+  background-color:#cccccc;
+  background-repeat:no-repeat;
+  width:100%;
+  height:500px;
+  background-size:cover;
+  display:-ms-flexbox;
+  display:flex;
+  -ms-flex-align:center;
+  align-items:center;
+  -ms-flex-pack:center;
+  justify-content:center}
+
+// img{
+//   height: 70vh;
+//   width: auto;
+//   margin: auto;
+//   display: block;
+// }
 
 .confidenceImage {
   background: url('../../assets/creativity.jpg');
