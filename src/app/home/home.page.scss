@@ -34,48 +34,30 @@
 #container a {
   text-decoration: none;
 }
+card {
+  padding: 0%;
+}
 
  .jumboImage {
     
-    background: url('../../assets/BzeBee-4.png') center center;
-    background-color:#bb3434;
+    background: url('../../assets/BzeBee.png') center center;
+    //background-color:#bb3434;
     background-repeat: no-repeat;
-    //width: 100%;
     height: 100vh;
-   // max-height: fit-content;
-    background-size: 70%;
+    max-height: 66%;
+    max-width: 100%;
+    background-size: 20em;
     display:-ms-flexbox;
     display:flex;
     -ms-flex-align:center;
     align-items:center;
     -ms-flex-pack:center;
     justify-content:center;
-    //display: block;
-   //margin: 2;
-    // background-position: center;
-    //padding: 22px; 
+  
   
 }
 
-.grid_box .a #section_one{background:url("/img/high-tech.jpg") center center;
-  background-color:#cccccc;
-  background-repeat:no-repeat;
-  width:100%;
-  height:500px;
-  background-size:cover;
-  display:-ms-flexbox;
-  display:flex;
-  -ms-flex-align:center;
-  align-items:center;
-  -ms-flex-pack:center;
-  justify-content:center}
 
-// img{
-//   height: 70vh;
-//   width: auto;
-//   margin: auto;
-//   display: block;
-// }
 
 .confidenceImage {
   background: url('../../assets/creativity.jpg');
@@ -83,31 +65,47 @@
   background-position: center; 
   background-size: 100%;
   height: 100vh;
+  padding: 0%
+  
 }
 
 // .ion-card {
-//   margin: 5px;
-// }
-
-.problemImage {
-  background: url('../../assets/problems.jpg');
-  background-repeat: no-repeat;
-  background-position: center; 
-  background-size: 100%;
-  height: 100vh;
-}
-
-.sucessImage {
-  background: url('../../assets/success.jpg');
-  background-repeat: no-repeat;
-  background-position: center; 
-  background-size: 100%;
-  height: 100vh;
-}
-.smoneyImage {
-  background: url('../../assets/smoney.jpg');
-  background-repeat: no-repeat;
-  background-position: center; 
-  background-size: 100%;
-  height: 100vh;
-}
+  //   margin: 5px;
+  // }
+  
+  .problemImage {
+    background: url('../../assets/problems.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: 100%;
+    height: 100vh;
+    padding: 0%;
+  }
+  
+  .sucessImage {
+    background: url('../../assets/success.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: 100%;
+    height: 100vh;
+  }
+  .smoneyImage {
+    background: url('../../assets/smoney.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: 100%;
+    height: 100vh;
+  }
+  .grid_box .a #section_one{background:url("/img/high-tech.jpg") center center;
+    background-color:#cccccc;
+    background-repeat:no-repeat;
+   // width:100%;
+   height: 100vh;
+    height:500px;
+    //background-size:cover;
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-align:center;
+    align-items:center;
+    -ms-flex-pack:center;
+    justify-content:center}
