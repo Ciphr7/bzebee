@@ -351,6 +351,10 @@ const routes = [
         redirectTo: 'home',
         pathMatch: 'full'
     },
+    {
+        path: 'contact',
+        loadChildren: () => __webpack_require__.e(/*! import() | pages-contact-contact-module */ "pages-contact-contact-module").then(__webpack_require__.bind(null, /*! ./pages/contact/contact.module */ "./src/app/pages/contact/contact.module.ts")).then(m => m.ContactPageModule)
+    },
 ];
 let AppRoutingModule = class AppRoutingModule {
 };

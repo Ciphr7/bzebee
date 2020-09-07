@@ -233,6 +233,17 @@
         path: '',
         redirectTo: 'home',
         pathMatch: 'full'
+      }, {
+        path: 'contact',
+        loadChildren: function loadChildren() {
+          return __webpack_require__.e(
+          /*! import() | pages-contact-contact-module */
+          "pages-contact-contact-module").then(__webpack_require__.bind(null,
+          /*! ./pages/contact/contact.module */
+          "./src/app/pages/contact/contact.module.ts")).then(function (m) {
+            return m.ContactPageModule;
+          });
+        }
       }];
 
       var AppRoutingModule = function AppRoutingModule() {
