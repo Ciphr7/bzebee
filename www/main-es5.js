@@ -222,10 +222,10 @@
         path: 'home',
         loadChildren: function loadChildren() {
           return __webpack_require__.e(
-          /*! import() | home-home-module */
-          "home-home-module").then(__webpack_require__.bind(null,
-          /*! ./home/home.module */
-          "./src/app/home/home.module.ts")).then(function (m) {
+          /*! import() | pages-home-home-module */
+          "pages-home-home-module").then(__webpack_require__.bind(null,
+          /*! ./pages/home/home.module */
+          "./src/app/pages/home/home.module.ts")).then(function (m) {
             return m.HomePageModule;
           });
         }
