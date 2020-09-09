@@ -343,17 +343,21 @@ __webpack_require__.r(__webpack_exports__);
 
 const routes = [
     {
-        path: 'home',
-        loadChildren: () => __webpack_require__.e(/*! import() | pages-home-home-module */ "pages-home-home-module").then(__webpack_require__.bind(null, /*! ./pages/home/home.module */ "./src/app/pages/home/home.module.ts")).then(m => m.HomePageModule)
+        path: '',
+        redirectTo: 'menu',
+        pathMatch: 'full'
     },
     {
-        path: '',
-        redirectTo: 'home',
-        pathMatch: 'full'
+        path: 'home',
+        loadChildren: () => __webpack_require__.e(/*! import() | pages-home-home-module */ "home-home-module").then(__webpack_require__.bind(null, /*! ./pages/home/home.module */ "./src/app/pages/home/home.module.ts")).then(m => m.HomePageModule)
     },
     {
         path: 'contact',
         loadChildren: () => __webpack_require__.e(/*! import() | pages-contact-contact-module */ "pages-contact-contact-module").then(__webpack_require__.bind(null, /*! ./pages/contact/contact.module */ "./src/app/pages/contact/contact.module.ts")).then(m => m.ContactPageModule)
+    },
+    {
+        path: 'menu',
+        loadChildren: () => __webpack_require__.e(/*! import() | pages-menu-menu-module */ "pages-menu-menu-module").then(__webpack_require__.bind(null, /*! ./pages/menu/menu.module */ "./src/app/pages/menu/menu.module.ts")).then(m => m.MenuPageModule)
     },
 ];
 let AppRoutingModule = class AppRoutingModule {

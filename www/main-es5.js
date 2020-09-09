@@ -219,20 +219,20 @@
       "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
 
       var routes = [{
+        path: '',
+        redirectTo: 'menu',
+        pathMatch: 'full'
+      }, {
         path: 'home',
         loadChildren: function loadChildren() {
           return __webpack_require__.e(
           /*! import() | pages-home-home-module */
-          "pages-home-home-module").then(__webpack_require__.bind(null,
+          "home-home-module").then(__webpack_require__.bind(null,
           /*! ./pages/home/home.module */
           "./src/app/pages/home/home.module.ts")).then(function (m) {
             return m.HomePageModule;
           });
         }
-      }, {
-        path: '',
-        redirectTo: 'home',
-        pathMatch: 'full'
       }, {
         path: 'contact',
         loadChildren: function loadChildren() {
@@ -242,6 +242,17 @@
           /*! ./pages/contact/contact.module */
           "./src/app/pages/contact/contact.module.ts")).then(function (m) {
             return m.ContactPageModule;
+          });
+        }
+      }, {
+        path: 'menu',
+        loadChildren: function loadChildren() {
+          return __webpack_require__.e(
+          /*! import() | pages-menu-menu-module */
+          "pages-menu-menu-module").then(__webpack_require__.bind(null,
+          /*! ./pages/menu/menu.module */
+          "./src/app/pages/menu/menu.module.ts")).then(function (m) {
+            return m.MenuPageModule;
           });
         }
       }];
