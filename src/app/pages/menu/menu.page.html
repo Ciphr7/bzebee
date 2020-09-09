@@ -6,7 +6,7 @@
           <ion-grid>
             <ion-row>
               <ion-col class="ion-text-center">
-                Contact Us
+               
               </ion-col>
             </ion-row>
   
@@ -19,7 +19,9 @@
         </ion-toolbar>
       </ion-header>
       <ion-content menuId="content">
-        <p>Contact</p>
+        <ion-menu-toggle>
+        <ion-button [routerLink]="['/contact']">Contact Us</ion-button>
+      </ion-menu-toggle>
       </ion-content>
     </ion-menu>
   
