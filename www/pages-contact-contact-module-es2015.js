@@ -9,7 +9,7 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<ion-header [translucent]=\"true\">\n  <ion-toolbar color=\"warning\">\n    <ion-buttons slot=\"start\">\n      <ion-back-button defaultHref=\"home\"></ion-back-button>\n    </ion-buttons>\n    <ion-title>\n      BzeBee - Contact\n    </ion-title>\n\n\n  </ion-toolbar>\n  \n</ion-header>\n\n<ion-content>\n\n</ion-content>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<ion-header [translucent]=\"true\">\n  <ion-toolbar color=\"warning\">\n    <ion-buttons slot=\"start\">\n      <ion-back-button defaultHref=\"menu/home\"></ion-back-button>\n    </ion-buttons>\n    <ion-buttons slot=\"end\">\n      <ion-menu-button></ion-menu-button>\n    </ion-buttons>\n    <ion-title>\n      BzeBee - Contact\n    </ion-title>\n  </ion-toolbar>  \n</ion-header>\n\n<ion-content>\n  <ion-grid>\n\n    <ion-row>\n      <ion-col></ion-col>\n      <ion-col size=\"8\">\n        Care Made easy\n      </ion-col>\n      <ion-col></ion-col>\n    </ion-row>\n  </ion-grid>\n  <ion-grid>\n      <ion-row>\n        <ion-col>icon</ion-col>\n        <ion-col>\n          icon\n        </ion-col>\n        <ion-col>icon</ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col>24Hr Support</ion-col>\n        <ion-col>\n          Chat With Us Now\n        </ion-col>\n        <ion-col>Same Day Appointment</ion-col>\n      </ion-row>\n  </ion-grid>\n</ion-content>\n");
 
 /***/ }),
 

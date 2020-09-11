@@ -1,17 +1,42 @@
 <ion-header [translucent]="true">
   <ion-toolbar color="warning">
     <ion-buttons slot="start">
-      <ion-back-button defaultHref="home"></ion-back-button>
+      <ion-back-button defaultHref="menu/home"></ion-back-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-menu-button></ion-menu-button>
     </ion-buttons>
     <ion-title>
       BzeBee - Contact
     </ion-title>
-
-
-  </ion-toolbar>
-  
+  </ion-toolbar>  
 </ion-header>
 
 <ion-content>
+  <ion-grid>
 
+    <ion-row>
+      <ion-col></ion-col>
+      <ion-col size="8">
+        Care Made easy
+      </ion-col>
+      <ion-col></ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-grid>
+      <ion-row>
+        <ion-col>icon</ion-col>
+        <ion-col>
+          icon
+        </ion-col>
+        <ion-col>icon</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>24Hr Support</ion-col>
+        <ion-col>
+          Chat With Us Now
+        </ion-col>
+        <ion-col>Same Day Appointment</ion-col>
+      </ion-row>
+  </ion-grid>
 </ion-content>

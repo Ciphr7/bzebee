@@ -1,6 +1,106 @@
 :root {
   --breakpoint: 600px;
 }
+#stGrid{
+  background: url('../../../assets/busin2.jpg') center, center;
+  //background-repeat: no-repeat;
+  max-height: 450px;
+  width: 100%;
+  //
+  //align-content: center;
+}
+  #jmbRw{
+    text-align: center;
+    align-content: center;
+    
+    .jumbotron{
+      background: rgba(20, 18, 18, 0.788);
+      padding: 1px 2px;
+      text-align: center;
+      color: rgb(214, 181, 247);
+      text-transform: uppercase;
+      align-content: center;
+      min-width:50vh;
+      //max-width: 75%;
+      //max-height: 300px;
+    
+        img {
+          max-width: 60%;
+          max-height: 200px;
+        }
+
+    }
+  }
+  #btnRw{
+   text-align: center;
+
+    ion-button{
+      //font-size: 6em;
+      //width: 40%;
+      //padding: 10px 20px;
+      text-align: center;
+      margin: 5px 0px;
+      font-size: 1rem;
+        //background-color: gold;
+      color: white;
+  }  
+
+}
+  
+  
+  
+  
+  .confidenceImage {
+    background: url('../../../assets/creativity.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: 100%;
+    height: 100vh;
+    padding: 0%
+    
+  }
+  
+  // .ion-card {
+    //   margin: 5px;
+    // }
+    
+    .problemImage {
+      background: url('../../../assets/problems.jpg');
+      background-repeat: no-repeat;
+      background-position: center; 
+      background-size: 100%;
+      height: 100vh;
+      padding: 0%;
+    }
+    
+    .sucessImage {
+      background: url('../../../assets/success.jpg');
+      background-repeat: no-repeat;
+      background-position: center; 
+      background-size: 100%;
+      height: 100vh;
+    }
+    .smoneyImage {
+      background: url('../../../assets/smoney.jpg');
+      background-repeat: no-repeat;
+      background-position: center; 
+      background-size: 100%;
+      height: 100vh;
+    }
+    .grid_box .a #section_one{background:url("/img/high-tech.jpg") center center;
+      background-color:#cccccc;
+      background-repeat:no-repeat;
+      // width:100%;
+      height: 100vh;
+      height:500px;
+      //background-size:cover;
+      display:-ms-flexbox;
+      display:flex;
+      -ms-flex-align:center;
+      align-items:center;
+      -ms-flex-pack:center;
+      justify-content:center
+    }
 
 @media (min-width: var(--breakpoint)) {
   /* Doesn't work :( */
@@ -38,90 +138,3 @@ ion-img{
 #container a {
   text-decoration: none;
 }
-
-#stRow{
-  background: url('../../../assets/busin2.jpg');
-}
-
-.jumbotron{
-  background: rgba(20, 18, 18, 0.788);
-  padding: 1px 15px;
-  text-align: center;
-  color: rgb(214, 181, 247);
-  text-transform: uppercase;
-  align-content: center;
-  min-width:50vh;
-  max-height: 90%;
-
-    img {
-     max-width: 60%;
-     max-height: 60%;
-    }
-    ion-button{
-      font-size: 6em;
-      width: 50%;
-      //padding: 10px 20px;
-      text-align: center;
-      margin: 25px 0;
-      font-size: 1em;
-        //background-color: gold;
-        color: rebeccapurple;
-     
-  }
-
-}
-
-
-
-
-.confidenceImage {
-  background: url('../../../assets/creativity.jpg');
-  background-repeat: no-repeat;
-  background-position: center; 
-  background-size: 100%;
-  height: 100vh;
-  padding: 0%
-  
-}
-
-// .ion-card {
-  //   margin: 5px;
-  // }
-  
-  .problemImage {
-    background: url('../../../assets/problems.jpg');
-    background-repeat: no-repeat;
-    background-position: center; 
-    background-size: 100%;
-    height: 100vh;
-    padding: 0%;
-  }
-  
-  .sucessImage {
-    background: url('../../../assets/success.jpg');
-    background-repeat: no-repeat;
-    background-position: center; 
-    background-size: 100%;
-    height: 100vh;
-  }
-  .smoneyImage {
-    background: url('../../../assets/smoney.jpg');
-    background-repeat: no-repeat;
-    background-position: center; 
-    background-size: 100%;
-    height: 100vh;
-  }
-  .grid_box .a #section_one{background:url("/img/high-tech.jpg") center center;
-    background-color:#cccccc;
-    background-repeat:no-repeat;
-   // width:100%;
-   height: 100vh;
-    height:500px;
-    //background-size:cover;
-    display:-ms-flexbox;
-    display:flex;
-    -ms-flex-align:center;
-    align-items:center;
-    -ms-flex-pack:center;
-    justify-content:center
-  }
